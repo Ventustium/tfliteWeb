@@ -1,0 +1,3 @@
+[console_scripts]
+tflite_codegen = tensorflow_lite_support.codegen.python.codegen:main
+

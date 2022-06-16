@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: tflite-support
+Version: 0.3.1
+Summary: TFLite Support is a toolkit that helps users to develop ML and deploy TFLite models onto mobile devices.
+Home-page: https://www.tensorflow.org/
+Author: Google, LLC.
+Author-email: packages@tensorflow.org
+License: Apache 2.0
+Download-URL: https://github.com/tensorflow/tflite-support/tags
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: absl-py (>=0.7.0)
+Requires-Dist: numpy (>=1.19.2)
+Requires-Dist: flatbuffers (<2,>=1.12)
+Requires-Dist: pybind11 (>=2.6.0)
+
+TFLite Support is a toolkit that helps users to develop ML and deploy TFLite models onto mobile devices.
+
+This PyPI package includes the Python bindings for following features:
+
+ - Metadata schemas: wraps TFLite model schema and metadata schema in Python.
+ - Metadata populator and displayer: can be used to populate the metadata and
+ associated files into the model, as well as converting the populated metadata
+ into the json format.
+ - Android Codegen tool: generates the Java model interface used in Android for
+ a particular model.
+
+
